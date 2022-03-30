@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>SSM Global - Contact</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+		<nav>
+		<div class="menu">
+			<button id="home">Home</button>
+			<button id="project">EU Projects</button>
+			<button id="contact">Contact</button>
+		</div>
+		</nav>
+		
+		<img src="images/ssm.png" alt="">
+		<h1>SSM Training Services LTD.</h1>
+	</header>
+	<main>
+		<div class="contact-info">
+			<h3>SSM EKKO</h3>
+			<h4>AUTHORIZED DRIVER TRAINING CENTER</h4>
+			<p>Communication phones</p>
+			<ul>
+				<li>Pancyprian: 99448958, 99875132</li>
+				<li>Larnaca: 99808237</li>
+				<li>Limassol: 99352511</li>
+				<li>Paphos: 99482059</li>
+				<li>Paralimni: 99533098</li>
+			</ul>
+			<p>Email Address: ekko@ssmedu.net</p>
+		</div>
+		
+		<div class="map-container aside1">
+			<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26175.403056745796!2d33.603752660623435!3d34.908322026336464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14e082a16c40cb13%3A0x4fcbf0221371d0a5!2sLarnaca%2C+Cyprus!5e0!3m2!1sen!2s!4v1529045933527" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+		<form action="/action_page.php" class="contact-form aside2" id="contact-form">
+			<h3>Contact  us</h3>
+    			<label for="fname">First name</label>
+    				<input type="text" id="fname" name="firstname" placeholder="Text...">
+
+    			<label for="lname">Last name</label>
+    				<input type="text" id="lname" name="lastname" placeholder="Text...">
+			<label for="email">Email</label>
+   				<input type="text" id="email" name="email" placeholder="Text...">
+    			<label for="subject">Subject</label>
+    				<textarea id="subject" name="subject" placeholder="..." style="height:200px"></textarea>
+    			<input type="submit" value="Submit" class="submit">
+		</form>
+	</main>
+	<footer>
+		<p>&copy; All copyrights belong to SSM Global Training Services LTD.</p>
+	</footer>
+</body>
+<script>
+	document.getElementById("home").onclick = function () {
+        location.href = "index.html";
+    };
+	document.getElementById("project").onclick = function () {
+        location.href = "project.html";
+    };
+	document.getElementById("contact").onclick = function () {
+        location.href = "contact.html";
+    };
+</script>
+</html>

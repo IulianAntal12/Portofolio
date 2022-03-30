@@ -1,0 +1,246 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cipru</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+	<style>
+* {box-sizing: border-box}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.texts {
+  color: black;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+	background-color: white;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+	
+
+<body>
+	<header>
+	    <h1>Iulik's WebSite</h1>
+	    <nav class="flex-nav">
+		    <a href="index.html">Acasă</a>
+		    <a href="hobbys.html">Hobby-uri</a>
+			<a href="cyprus.html">Cipru</a>
+		    <a href="contact.html">Contacte</a>
+	    </nav>
+	</header>
+	
+<div class="slideshow-container" style="overflow: hidden;">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 9</div>
+  <img src="img1.jpg" alt="#" style="width:100%">
+  <div class="texts">Cipru</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 9</div>
+  <img src="img2.jpg" alt="#" style="width:100%">
+  <div class="texts">Cipru</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 9</div>
+  <img src="img3.jpg" alt="#" style="width:100%">
+  <div class="texts">Cipru</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 9</div>
+  <img src="img4.jpg" alt="#" style="width:100%">
+  <div class="texts">Cipru</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 9</div>
+  <img src="img5.jpg" alt="#" style="width:100%">
+  <div class="texts">Cipru</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 9</div>
+  <img src="img6.jpg" alt="#" style="width:100%">
+  <div class="texts">Cipru</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 9</div>
+  <img src="img7.jpg" alt="#" style="width:100%">
+  <div class="texts">Cipru</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">8 / 9</div>
+  <img src="img8.jpg" alt="#" style="width:100%">
+  <div class="texts">Cipru</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">9 / 9</div>
+  <img src="img9.jpg" alt="#" style="width:100%">
+  <div class="texts">Cipru</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+  <span class="dot" onclick="currentSlide(9)"></span>
+   
+</div>
+
+<div class="paragraf">
+		<h1>Săptămâna 1</h1>
+		<p>
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; În cadrul activităților de la firma de practică SSM Global Training Services LTD, am reușit să îmi îmbogățesc cunoștințele cu elemente de noutate legate de aplicația Adobe Dreamweaver și dezvoltarea de website-uri.<br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Este prima experiență de acest tip și sunt complet încantat de cum se desfășoară mobilitatea, este altceva față de școala obișnuită din România unde nu se face practică pe baza a  ceea ce învățăm.  Cu desăvârșire, prin participarea la activitățile de la firma de practică, dar și la cele din cadrul grupului am reușit să îmi dezvolt capacitatea de a mă  exprima, în limba  română, cât și în limba engleză, și de a lucra în echipă, cu oameni cunoscuți sau oameni noi. Nu am o activitate favorită din cele desfășurate până acum deoarece toate mi-au plăcut și la toate am participat cu plăcere și m-am implicat.<br>
+     Antal Cristian-Iulian<br>
+     Participant flux: Paphos, Cipru
+	    </p><br><br><br>
+	    <h1>Săptămâna 2</h1>
+		<p>
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Săptămâna aceasta am învățat mult mai multe lucruri noi legate de Web Design și de folosirea programului Adobe Dreamweaver.  <br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Participarea la activitățile propuse m-a făcut să învăț să comunic și să lucrez în echipă și consider că aceste calități mi s-au îmbunatațit pe perioada mobilitații.<br>
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proiectul prin care noi, în echipe, trebuia să devenim mici antreprenori, mi-a plăcut în mod deosebit datorită solicitării imaginației și spiritului de echipă.<br>
+     Antal Cristian-Iulian<br>
+     Participant flux: Paphos, Cipru
+	    </p>
+	</div>
+	    <div class="footer">
+		    <div class="cr">
+			     <h1 title="All copyright belongs to Antal Iulian">&copy;Antal Iulian<br>2018 CNRV</h1>
+		    </div>
+    	</div>
+  	
+	
+</body>
+	<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</html>

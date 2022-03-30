@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SmartyBuild - Home</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	
+	<header>
+	<nav>
+		<div class="menu">
+			<button id="home">Home</button>
+			<button id="info">Info</button>
+			<button id="shop">Shop</button>
+			<button id="contact">Contact</button>
+		</div>
+		<button id="login">Login</button>
+	</nav>
+			<img src="images/sbbb.png" alt="">
+			<h1>Smarty Build.</h1>
+	</header>
+	<main>
+		<div class="content1">
+			<div class="slideshow-container">
+  				<div class="mySlides fade">
+    					<img src="images/image1.jpg" alt="#" style="width:100%">
+  				</div>
+
+  				<div class="mySlides fade">
+    					<img src="images/image2.jpg" alt="#" style="width:100%">
+  				</div>
+
+  				<div class="mySlides fade">
+    					<img src="images/image3.jpg" alt="#" style="width:100%">
+  				</div>
+			</div>
+			<p>Our products will make your life a lot easier. With a press of a button from your phone you can adjust the temperature, the window blinds, get the bathtub ready, fire up the chimney and much more.
+			</p>
+			<p>Even more, we offer your home or company the edge in security: cameras capable of identyfing people, motion sensors and security drones.Our products will help employees and overall improve life at work. We offer more than other competitors for a lower price and our products are low-energy consuming.
+			</p>
+		</div>
+		<div class="aside1">
+			<ul> Types of Products and services:
+				<li>Smart home tech</li>
+				<li>BMS tech</li>
+				<li> + technical service</li>
+			</ul>
+		</div>
+		<div class="aside2">
+			<p>You can buy our products and services directly from our headquarters in Iasi, Romania, or you can order online.</p>
+			<button>ORDER NOW</button>
+		</div>
+	</main>
+	<footer>
+		<a href="http://www.satrabenz.com/" target="_blank"><img src="images/sbbb.png" alt=""></a>
+		<p>&copy; All copyrights are reserved to Smarty Build Inc.</p>
+	</footer>
+</body>
+<script>
+	document.getElementById("home").onclick = function () {
+        location.href = "index.html";
+    };
+	document.getElementById("info").onclick = function () {
+        location.href = "info.html";
+    };
+	document.getElementById("shop").onclick = function () {
+        location.href = "#.html";
+    };
+	document.getElementById("contact").onclick = function () {
+        location.href = "contact.html";
+    };
+	document.getElementById("login").onclick = function () {
+        location.href = "#.html";
+    };
+	var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+} 
+</script>
+</html>
