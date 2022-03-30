@@ -1,0 +1,386 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>About</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+	<style>
+* {box-sizing: border-box}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.texts {
+  color: black;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+	background-color: white;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.4s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+	
+
+<body>
+	<header>
+      <h1>11B-CNRV</h1>
+      <nav class="flex-nav">
+        <a href="index.html">Home</a>
+        <a href="Projects.html">Our Projects</a>
+        <a href="about.html">About Us</a>
+        <a href="orar.html">Timetable</a>
+        <a href="contact.html">Contacts</a>
+      </nav>
+  </header>
+	
+<div class="slideshow-container" style="overflow: hidden;">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 9</div>
+  <img src="img1.jpg" alt="#" style="width:100%">
+  <div class="texts">11B Family</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 9</div>
+  <img src="img2.jpg" alt="#" style="width:100%">
+  <div class="texts">11B Family</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 9</div>
+  <img src="img3.jpg" alt="#" style="width:100%">
+  <div class="texts">11B Family</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 9</div>
+  <img src="img4.jpg" alt="#" style="width:100%">
+  <div class="texts">11B Family</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 9</div>
+  <img src="img5.jpg" alt="#" style="width:100%">
+  <div class="texts">11B Family</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 9</div>
+  <img src="img6.jpg" alt="#" style="width:100%">
+  <div class="texts">11B Family</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 9</div>
+  <img src="img7.jpg" alt="#" style="width:100%">
+  <div class="texts">11B Family</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">8 / 9</div>
+  <img src="img8.jpg" alt="#" style="width:100%">
+  <div class="texts">11B Family</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">9 / 9</div>
+  <img src="img9.jpg" alt="#" style="width:100%">
+  <div class="texts">11B Family</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+  <span class="dot" onclick="currentSlide(9)"></span>
+   
+</div>
+
+<div class="paragraf">
+		<table id="customers">
+  <tr>
+    <th>Name</th>
+    <th>Date of Birth</th>
+  </tr>
+  <tr>
+    <td>Achiriloaei George Eduard</td>
+    <td>May 4, 2001</td>
+  </tr>
+  <tr>
+    <td>Adăscăliței Alexandra Mihaela</td>
+    <td>November 5,2001</td>
+  </tr>
+  <tr>
+    <td>Ailioaei Bianca Andreea</td>
+    <td>April 7,2001</td>
+  </tr>
+  <tr>
+    <td>Antal Cristian Iulian</td>
+    <td>January 12, 2001</td>
+  </tr>
+  <tr>
+    <td>Antici Sergiu</td>
+    <td>April 2, 2002</td>
+  </tr>
+  <tr>
+    <td>Aungurenci Tudor Paul</td>
+    <td>June 24, 2001</td>
+  </tr>
+  <tr>
+    <td>Balint Milena Elena</td>
+    <td>May 9, 2001</td>
+  </tr>
+  <tr>
+    <td>Baltag Andreea Diana</td>
+    <td>April 10, 2001</td>
+  </tr>
+  <tr>
+    <td>Bîrjoveanu Alexandra</td>
+    <td>May 20, 2002</td>
+  </tr>
+  <tr>
+    <td>Blaj Paul Alin</td>
+    <td>May 26, 2001</td>
+  </tr>
+  <tr>
+    <td>Burcă Sabina</td>
+    <td>July 26, 2001</td>
+  </tr>
+  <tr>
+    <td>Burlacu Mircea Florian </td>
+    <td>April 9, 2001</td>
+  </tr>
+  <tr>
+    <td>Căliman Iolanda</td>
+    <td>June 15, 2002</td>
+  </tr>
+  <tr>
+    <td>Cozma Andrei Stelian</td>
+    <td>July 6, 2001</td>
+  </tr>
+  <tr>
+    <td>Dascălu Andreea </td>
+    <td>March 5, 2002</td>
+  </tr>
+  <tr>
+    <td>Dumea Luisa Iuliana</td>
+    <td>February 11, 2001</td>
+  </tr>
+  <tr>
+    <td>Fechită Antonio George</td>
+    <td>May 29, 2001</td>
+  </tr>
+  <tr>
+    <td>Filip Tudor Mihail</td>
+    <td>June 21, 2001</td>
+  </tr>
+  <tr>
+    <td>Fînariu Sebastian Ștefan</td>
+    <td>December 20, 2000</td>
+  </tr>
+  <tr>
+    <td>Fușneică Iuliana Elena</td>
+    <td>March 7, 2001</td>
+  </tr>
+  <tr>
+    <td>Geman Bianca Ioana</td>
+    <td>July 18, 2001</td>
+  </tr>
+  <tr>
+    <td>Ghiuzan Edward</td>
+    <td>May 24, 2001</td>
+  </tr>
+  <tr>
+    <td>Grăjdeanu Gabriela</td>
+    <td>October ,2001</td>
+  </tr>
+  <tr>
+    <td>Mare Andrei Florin</td>
+    <td>May 14, 2001</td>
+  </tr>
+  <tr>
+    <td>Martoncă Luiza Beatrice</td>
+    <td>April 14, 2001</td>
+  </tr>
+  <tr>
+    <td>Mărtici Andreea</td>
+    <td>December 13, 2001</td>
+  </tr>
+  <tr>
+    <td>Munteanu Adrian Constantin</td>
+    <td>March 1, 2001</td>
+  </tr>
+  <tr>
+    <td>Popa Bianca Ștefana</td>
+    <td>December 14, 2001</td>
+  </tr>
+  <tr>
+    <td>Roca Paul Sabin</td>
+    <td>November 23, 2001</td>
+  </tr>
+  <tr>
+    <td>Roman Iulian Robert</td>
+    <td>September 27, 2001</td>
+  </tr>
+  <tr>
+    <td>Rotaru Ingrid Maria</td>
+    <td>May 3, 2001</td>
+  </tr>
+  <tr>
+    <td>Stoica David</td>
+    <td>March 9, 2002</td>
+  </tr>
+</table>
+<hr class="hr">
+<div style="float: right; width: 50%;margin-bottom: 5%; margin-top: 3%;">
+  <img style="width: 30%;height: 125px;" src="ptpi.jpg">
+  <img style="width: 30%;height: 125px;" src="Kult.jpg">
+  <img style="width: 30%;height: 125px;" src="Scout.jpg">
+  <img style="width: 30%;height: 125px;" src="un.jpg">
+  <img style="width: 30%;height: 125px;" src="musatinii.jpg">
+  <img style="width: 30%;height: 125px;" src="ac.jpg">
+</div>
+<p style="color: red;font-weight: bolder; width: 48%; float: left; margin-top: 3%;">
+    Non-Governmental Organisations which we are members of:<br>
+    <p style="color: black;font-weight: bold;margin-bottom: 5%;">  
+    &nbsp;1. People to People International-Roman Chapter<br>
+    &nbsp;2. United Nations Youth Romania-Roman Branch<br>
+    &nbsp;3. Asociația Mușatinii<br>
+    &nbsp;4. Kult Hub<br>
+    &nbsp;5. Scout<br>
+    &nbsp;6. Acțiunea Catolică<br>
+  </p>
+</p>
+<hr style="border-color: blue;">
+</div>
+	   <div class="footer">
+    <a id="pozacnrv" href="http://cnrv.ro/" target="_blank"><img src="erasmus.jpg" alt="#" title="Cick On Me!"></a>
+    <div class="cr">
+          <h1>Ailioaei Bianca<br>Antal Iulian<br>&copy; 2019 CNRV</h1>
+    </div>
+    <div class="cr">
+           <h1>Teacher:<br>Chereji Monica</h1>
+    </div>
+    
+  </div>
+
+  
+  	
+	
+</body>
+	<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</html>

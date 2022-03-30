@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1609256250 source:c:\users\paula malina\onedrive\desktop\p.codeblock\bo\main.cpp
+	<iostream>
+	<stdlib.h>
+	<winbgim.h>
+	<graphics.h>
+	<stdio.h>
+	<time.h>
+	<windows.h>
+	<MMsystem.h>
+
+1610743090 source:c:\users\40762\desktop\bo1\main.cpp
+	<iostream>
+	<stdlib.h>
+	<winbgim.h>
+	<graphics.h>
+	<stdio.h>
+	<windows.h>
+	<MMsystem.h>
+
+1610199716 source:c:\users\paula malina\onedrive\desktop\p.codeblock\bo1\main.cpp
+	<iostream>
+	<stdlib.h>
+	<winbgim.h>
+	<graphics.h>
+	<stdio.h>
+	<time.h>
+	<windows.h>
+	<MMsystem.h>
+	<fstream>
+
