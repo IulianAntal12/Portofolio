@@ -14,3 +14,8 @@
   - How to run the server file: 
   1. gcc server7.c -o server7 -lsqlite3
   2. ./server7
+
+# DiscordBot
+  -2 bots for discord programmed in Java using Discord4J and JDA API.
+  -The first bot is designed to create an image of a graph sent as input and answer theoretical questions.
+  -The second bot is designed for general purposes: music player, ticket system management, ban/unban commands, deleting messages, etc.
