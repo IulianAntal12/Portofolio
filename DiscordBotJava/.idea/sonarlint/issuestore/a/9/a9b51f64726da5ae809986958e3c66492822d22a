@@ -1,0 +1,39 @@
+
+4
+java:S2119œ"Save and re-use this "Random".(¼İÅf
+4
+java:S2119·"Save and re-use this "Random".(¼İÅf
+n
+java:S3776Ê"RRefactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.(ÀËû¬ıÿÿÿÿ
+E
+java:S2440Ì")Remove this instantiation of "CustomBot".(‹©ö“üÿÿÿÿ
+J
+java:S1481Ì".Remove this unused "customBot" local variable.(‹©ö“üÿÿÿÿ
+O	java:S106Ó"9Replace this use of System.out or System.err by a logger.(òĞê‰
+3
+java:S6205ı"Remove this redundant block.(á©­×
+L
+java:S1874‚"5Remove this use of "createMessage"; it is deprecated.(´–î£
+H
+java:S1602ƒ",Remove useless curly braces around statement(ÒÌâ–øÿÿÿÿ
+L
+java:S1874—"5Remove this use of "createMessage"; it is deprecated.(´–î£
+H
+java:S1602˜",Remove useless curly braces around statement(ÒÌâ–øÿÿÿÿ
+L
+java:S1874¸"5Remove this use of "createMessage"; it is deprecated.(´–î£
+H
+java:S1602¹",Remove useless curly braces around statement(ÒÌâ–øÿÿÿÿ
+3
+java:S6205Å"Remove this redundant block.(üØô
+c
+java:S1128"FRemove this unused import 'org.checkerframework.checker.units.qual.C'.(ÏıÁÊ8´…ÆÌ“0
+U
+java:S1144("3Remove this unused private "createCommands" method.(ÁÀÈØúÿÿÿÿ8µ…ÆÌ“0
+a
+java:S1192„"JDefine a constant instead of duplicating this literal "graph.png" 3 times.(…ºÙ÷
+i
+java:S11920"NDefine a constant instead of duplicating this literal "ObservaÈ›ii:
+" 3 times.(äŠšöûÿÿÿÿ
+Q
+java:S1141±"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ

@@ -1,0 +1,7 @@
+
+u
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÿøä8áŠ¥Ë“0
+‹
+java:S1319"nThe type of "controllerHashMap" should be an interface such as "Map" rather than the implementation "HashMap".(ÌÊ’ù8¬Ø¥Ë“0
+z
+java:S1104"]Make controllerHashMap a static final constant or non-public and provide accessors if needed.(ÌÊ’ù8äŠ¥Ë“0
