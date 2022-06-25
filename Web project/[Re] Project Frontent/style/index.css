@@ -1,0 +1,90 @@
+body {
+    background-image:
+            linear-gradient(rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)),
+            url("./../resources/cool-background.webp");
+    background-size: cover;
+    background-repeat: repeat;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#particles-js {
+    margin-top: -25%;
+    width: 100%;
+    height: 100%;
+}
+#MainContainer{
+    width: 75%;
+    margin: 3% 12.5%;
+}
+#OptionList {
+    padding: 0;
+}
+#OptionList li{
+    width: 100%;
+    padding-top: 35%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.element button {
+    width: 100%;
+    height: 8vw;
+    color: black;
+    font-size: 14px;
+    background: none;
+    font-size-adjust: inherit;
+    font-weight: bold;
+    border:  none;
+}
+#HiddenParagraph{
+    font-size: 18px;
+    font-size-adjust: inherit;
+    font-weight: bolder;
+    font-family: "Cooper Black", Serif, serif;
+    width: 75%;
+    margin: auto;
+    text-align: justify;
+}
+.element {
+    width: 150px;
+    max-width: 100%;
+    background-image: url("./../resources/background-button.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30%;
+    opacity: 85%;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #HiddenParagraph {
+        font-size: 14px;
+        margin-top: -20%;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: justify;
+    }
+
+    #OptionList li {
+        flex-direction: column;
+        padding-top: 36%;
+        height: 280px;
+        margin: 0;
+    }
+
+    #OptionList {
+        padding-bottom: 30%;
+    }
+
+    .element button {
+        height: 48px;
+    }
+
+    #HiddenParagraph {
+        width: 100%;
+    }
+}

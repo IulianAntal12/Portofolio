@@ -1,0 +1,158 @@
+.list {
+    width: 96%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list > li {
+    width: 100%;
+    margin-bottom: 2%;
+    padding: 3%;
+    border: 2px solid green;
+    z-index: 100;
+    background: transparent;
+}
+
+.list > li.hint {
+    border: 1px solid #ffc49a;
+    background: #feffb4;
+}
+
+.list > li.active {
+    border: 1px solid green;
+    background: #ffe7e7;
+}
+
+.listExample {
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+
+}
+
+.listExample input {
+    margin: 2% 2% 2% 6%;
+    width: 160px;
+}
+
+.listExample select {
+    margin: 2% 2% 2% 6%;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.deleteData {
+    text-align: center;
+    list-style: none;
+    padding: 15px;
+}
+
+.deleteLevelData {
+    text-align: center;
+    list-style: none;
+    padding: 15px;
+}
+
+.deleteInput {
+    margin-right: 15px;
+}
+
+.deleteLevelInput {
+    margin-right: 15px;
+}
+
+#deleteOption {
+    margin-right: 15px;
+}
+
+#buttoneye {
+    height: 5%;
+    width: 5%;
+    margin-left: 47.5%;
+    margin-top: -5%;
+    font-size: small;
+}
+
+#buttongift {
+    height: 5%;
+    width: 5%;
+    margin-left: 47.5%;
+    margin-top: -5%;
+    font-size: small;
+}
+
+#buttongamepad {
+    height: 5%;
+    width: 5%;
+    margin-left: 47.5%;
+    margin-top: -5%;
+    font-size: small;
+}
+
+#buttontrophy {
+    height: 5%;
+    width: 5%;
+    margin-left: 47.5%;
+    margin-top: -5%;
+    font-size: small;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+    .deleteData select {
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .deleteData input {
+        margin: 2% 0;
+    }
+
+    .fa-refresh {
+        margin-left: 35%;
+    }
+
+    #buttoneye{
+        width: 15%;
+        margin-left: 45%;
+    }
+
+    #buttongift{
+        width: 15%;
+        margin-left: 45%;
+    }
+
+    #buttongamepad{
+        width: 15%;
+        margin-left: 45%;
+    }
+
+    #buttontrophy{
+        width: 15%;
+        margin-left: 45%;
+    }
+
+}

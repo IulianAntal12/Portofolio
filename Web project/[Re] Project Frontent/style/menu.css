@@ -1,0 +1,56 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    background-image: url("./../resources/trianglify.webp");
+    background-size: cover;
+    background-repeat: repeat;
+}
+#menu {
+    width: 100%;
+    padding: 0;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+
+#pressedDelete {
+    color: red;
+}
+
+.redEye {
+    color: red;
+}
+
+.greenBtn {
+    color: green;
+}
+
+.redBtn {
+    color: red;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .menu {
+        display: inline-block;
+    }
+    .menu li {
+        display: inline;
+        margin-left: 10%;
+        align-items: center;
+    }
+    .menu li i {
+        margin-bottom: 5%;
+     }
+    .menu select {
+        margin-bottom: 2%;
+        margin-left: 36%;
+    }
+}
