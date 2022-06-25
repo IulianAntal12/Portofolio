@@ -1,7 +1,7 @@
 const oracledb = require('oracledb');
 
 async function send_email(user_name, hashcode){
-    const SENDGRID_API_KEY = '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'
+    const SENDGRID_API_KEY = 'key'
     const EMAIL_ADRESS = 'gamificationproject2001@gmail.com'
 
     const fs = require("fs");
